@@ -1,0 +1,48 @@
+#popular {
+  scroll-behavior: smooth;
+  padding: 100px 0;
+
+  h1 {
+    text-align: center;
+    margin-bottom: 40px;
+
+  }
+
+  .popular {
+    display: flex;
+    justify-content: center;
+    gap: 6rem;
+    flex-wrap: wrap;
+
+
+    &--card {
+      width: 25%;
+      border: 1px solid rgba(73, 79, 215, 0.62);
+      padding: 30px 0;
+      border-radius: 10px;
+      -webkit-box-shadow: 0px 0px 27px 6px rgba(83, 88, 183, 0.62);
+      -moz-box-shadow: 0px 0px 27px 6px rgba(37, 41, 117, 0.62);
+      box-shadow: 0px 0px 27px 6px rgba(11, 46, 131, 0.2);
+      //-webkit-box-shadow: 0px 0px 27px 6px rgba(255, 255, 255, 0.2);
+      //-moz-box-shadow: 0px 0px 27px 6px rgba(255, 255, 255, 0.2);
+      //box-shadow: 0px 0px 27px 6px rgba(255, 255, 255, 0.2);
+
+      h2 {
+        color: white;
+        text-align: center;
+        margin-top: 10px;
+        font-size: 15px;
+      }
+    }
+    &--pagination{
+      scroll-behavior: smooth;
+      display: flex;
+      justify-content: space-between;
+      button{
+
+        padding: 10px 20px;
+      }
+    }
+  }
+
+}

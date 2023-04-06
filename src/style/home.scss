@@ -1,0 +1,54 @@
+#home {
+  height: 100%;
+
+  .home {
+    padding: 100px 0;
+
+   &--logo{
+     text-align: start;
+     padding: 200px 0 0 0;
+      color: white;
+      font-weight: 800;
+     h1{
+       font-size: 60px;
+       margin: 20px 0 ;
+     }
+     h2{
+       font-size: 35px;
+
+     }
+
+    }
+
+    &--input {
+      width: 70%;
+      border: 2px solid #133124;
+      color: black;
+      border-radius: 40px;
+      background: white;
+      outline: none;
+      padding: 12px 10px;
+      font-size: 15px;
+      cursor: auto;
+
+
+    }
+
+    &--btn {
+      font-size: 13px;
+      border: 2px solid #133124;
+      border-radius: 40px;
+      padding: 12px 35px;
+      color: rgb(31, 33, 116);
+      background: #40AB7E;
+      transition: .2s;
+      cursor: pointer;
+
+      &:focus {
+        background: 0;
+        color: #40AB7E;
+      }
+    }
+
+  }
+}

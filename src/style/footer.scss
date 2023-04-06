@@ -1,0 +1,20 @@
+#footer {
+  background: rgb(31, 33, 116);
+  background: linear-gradient(90deg, rgba(19, 109, 116, 1) 0%, rgba(36, 26, 157, 1) 48%, rgba(16, 105, 121, 1) 100%);
+
+  display: flex;
+  align-items: center;
+  height: 100px;
+
+  .footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    &--log {
+      color: white;
+    }
+
+
+  }
+}

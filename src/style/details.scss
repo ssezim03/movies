@@ -1,0 +1,60 @@
+#details {
+  padding: 50px 0;
+
+  .details {
+    height: 75vh;
+    padding: 50px 0;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    &__images{
+  
+    }
+
+    &--info {
+      background: rgba(164, 163, 163, 0.4);
+      padding: 50px 30px;
+      border-radius: 20px;
+      width: 50%;
+      color: white;
+
+      h2 {
+        margin: 20px 0 0 0;
+      }
+
+      &__vote{
+        width: 60px;
+        height: 60px;
+        background: transparent;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border:5px solid #338c01;
+      }
+      &__genres{
+        display: flex;
+        p{
+          margin: 7px 10px 0 0;
+        }
+      }
+      &__card{
+        width: 30%;
+        margin: 20px 0;
+        display: flex;
+        justify-content: space-between;
+        &--vote{
+          width: 60px;
+          height: 60px;
+          background: transparent;
+          border-radius: 50%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          border:5px solid #338c01;
+        }
+
+      }
+    }
+  }
+}

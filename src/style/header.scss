@@ -1,0 +1,118 @@
+#header {
+  top: 0;
+  position: fixed;
+  width:100%;
+  padding: 15px;
+  background: rgb(31, 33, 116);
+  background: linear-gradient(90deg, rgba(19, 109, 116, 1) 0%, rgba(36, 26, 157, 1) 48%, rgb(12, 57, 89) 100%);
+
+  .header {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+    &--log {
+      color: white;
+    }
+
+    &__nav {
+     justify-content: space-between;
+      width: 60%;
+      display: flex;
+      align-items: center;
+      text-align: center;
+      select{
+        border-radius: 30px;
+        border:none;
+        font-size: 15px;
+        color: rgb(31, 33, 116);
+        padding: 5px 5px;
+        background: #40AB7E;
+        outline: none;
+      }
+
+      .active {
+
+        padding: 3px 8px;
+        background: #40AB7E;
+        color: rgb(31, 33, 116);
+        border-radius: 20px;
+      }
+
+      &--link {
+        color: white;
+        font-weight: 500;
+        margin: 0 30px;
+        font-size: 18px;
+      }
+
+      &--btn {
+        margin:  0 0 0 20px;
+        font-size: 13px;
+        border: 2px solid #40AB7E;
+        border-radius: 30px;
+        padding: 8px 8px;
+        color: rgb(31, 33, 116);
+        background: #40AB7E;
+        transition: .4s;
+
+        &:hover {
+          transform: scale(1.1);
+          background: 0;
+          color: #40AB7E;
+        }
+      }
+      &--dark{
+
+        margin: 0 0 0 10px;
+        button{
+          background: #40AB7E;
+          color: rgb(31, 33, 116);
+          margin: 5px;
+          font-size: 12px;
+        width: 30px;
+          height: 30px;
+          border-radius: 50%;
+          transition: .2s;
+
+        }
+        button:focus{
+          transform: scale(1.1);
+        }
+
+      }
+    }
+
+    &--search {
+
+      &__input {
+        border: 2px solid #40AB7E;
+
+        border-radius: 40px;
+        background: transparent;
+        outline: none;
+        padding: 8px 10px;
+        font-size: 15px;
+        cursor: auto;
+      }
+      &__btn{
+        font-size: 13px;
+        border: 2px solid #40AB7E;
+        border-radius: 40px;
+        padding: 8px 10px;
+        color: rgb(31, 33, 116);
+        background: #40AB7E;
+        transition: .2s;
+        cursor: pointer;
+        &:focus{
+          background: 0;
+          color: #40AB7E;
+        }
+      }
+    }
+  }
+}
+
+
